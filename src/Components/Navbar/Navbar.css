@@ -34,13 +34,20 @@
     justify-content: center;
     cursor: pointer;
     gap: 3px;
+}
 
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
 }
 
 .nav-login-cart{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .nav-login-cart button{
@@ -61,5 +68,15 @@
 }
 
 .nav-cart-count{
-    
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
 }
